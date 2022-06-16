@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  
+  color: #fff;
+  background-color: #0e0e10;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;    
+}
+
+body::-webkit-scrollbar-track {
+  background: #0e0e10;     
+  margin: 5px;          
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #858b94;   
+  border-radius: 20px;       
+  
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+  h1 {
+      margin: 0;
+      font-size: 26px;
+  }
+  
+  .PopStreams {
+    font-size: 54px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .browseh1 {
+    margin-left: 47px;
+  }
+  .containerMain {
+    margin: 10px 15px;
+  }
+  
+  .streams {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+  grid-gap: 10px;
+}
+
+.streams-divs {
+  width: 370px;
+  height: 370px;
+  margin: auto;
+}
+
+.names {
+ margin: 0;
+ width: fit-content;
+}
+.userName:hover {
+  color: #bf94ff;
+}
+
+.gameName {
+  font-weight: 400;
+  font-size: 16px;
+}
+.titles {
+  font-size: 16.8px;
+  font-weight: 400;
+  
+}
+.viewer-live {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 90px;
+  width: 140px;
+}
+.streamerInfo {
+  position: relative;
+  bottom: 90px;
+  
+}
+.viewer-live > p {  
+  margin: 8px;
+  padding: 2px;
+  border-radius: 10px;
+}
+.viewers {
+  background-color: #18181bab;
+  width: fit-content;
+}
+.live {
+  width: 45px;
+  position: relative;
+  bottom: 120px;
+  background-color: red;
+  font-weight: 600;
+  text-align: center;
+}
+
+img:hover {
+  box-shadow: -3px 4px 0px #9147ff;
+  
+  border-left: 3px solid #9146ff;
+  border-bottom: 3px solid #9146ff;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.games-div{
+  margin-bottom: 20px;
+}
+.topGameName {
+  font-size: 16px;
+  font-weight: 400;
+}
+.games-container {
+  margin: 20px 50px;
+}
+

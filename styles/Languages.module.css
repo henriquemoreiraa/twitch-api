@@ -1,0 +1,23 @@
+.language {
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .language > button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #9147ff;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .language > button:hover{
+    background-color: #9b5cf8;
+  }
+  

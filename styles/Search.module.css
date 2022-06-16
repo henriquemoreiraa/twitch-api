@@ -1,0 +1,88 @@
+.allUserInfo {
+    margin: 50px;
+    display: flex;
+    border: 1px solid #9147ff;
+    border-radius: 15px;
+    padding: 10px 30px 10px 30px;
+    align-items: center;
+}
+
+.userInfo {
+    display: flex;
+}
+
+.viewcount {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.viewcount > h3 {
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.nameCheck {
+    display: flex;
+    align-items: center;
+} 
+
+.nameCheck > h1 {
+    margin-right: 10px;
+}
+
+.nameDescrip {
+    margin-left: 20px;
+    padding-right: 30px;
+    width: 400px;
+}
+.nameDescrip > p {
+    word-break: break-word;
+}
+
+
+.userImg {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.userImg:hover {
+    border: none;
+    box-shadow: none;
+}
+
+.userName:hover {
+    color: #bf94ff;
+}
+
+
+.thumbImg:hover {
+    border: none;
+    box-shadow: none;
+}
+
+.stream {
+    display: flex;
+    align-items: center;
+}
+
+.live {
+    background-color: red;
+    width: fit-content;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 0 0 5px;
+
+}
+
+.userStream {
+    margin-left: 20px;
+}
+
+.userStream > h3 {
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
